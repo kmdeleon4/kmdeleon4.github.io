@@ -1,18 +1,24 @@
-nav {
-    overflow: hidden;
-    background-color: #595959;
-  }
-  
-  nav a {
+.nav {
+	Background-color: #595959;
+    color: #ffffff;
+    list-style: none;
+    text-align: left;
+    padding: 15px 15px 15px 25px;
     margin: 0;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  nav a:hover {
-    background-color: #D2FCEC;
-    color: #595959;
-  }
+}
+
+.nav > li {
+	Display: inline-block;
+    padding-right:  40px;
+}
+	
+.nav > li > a {
+	text-decoration: none;
+    color: #d2fcec; 
+    padding: 5px
+}
+
+.nav > li > a:hover {
+    border: 1px solid #d2fcec;
+    padding: 5px
+}
