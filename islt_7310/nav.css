@@ -1,11 +1,18 @@
 nav {
-    ul li{
-    display: inline-block;  
-    border: 3px solid #D2FCEC;
-    width: 150px;
-    list-style-type: none;
-    padding: 15px 15px 15px 15px;
-    margin-top: 0;  
-    margin-left: 10px;
-    } 
-}
+    overflow: hidden;
+    background-color: #595959;
+  }
+  
+  nav a {
+    margin: 0;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  nav a:hover {
+    background-color: #D2FCEC;
+    color: #595959;
+  }
