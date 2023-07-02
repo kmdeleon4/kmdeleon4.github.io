@@ -1,1 +1,36 @@
-h1 {color: #53BDA6;}
+h1 {
+    color: #53BDA6;
+}
+
+main {
+    font-family: 'lato';
+}
+
+#letterone {
+    color: #d2fcec;
+    font-weight: bold;
+    font-size: large;
+}
+
+.indentP {
+    text-indent: 30px;
+}
+
+footer {
+    Background-color: #595959;
+    color: #d2fcec;
+    padding: 20px
+}
+
+.contentheader {
+    Background-color: #defcec;
+    padding: 20px;
+    Display: block;
+    Width: 400px;
+    }
+
+.content1 {
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
