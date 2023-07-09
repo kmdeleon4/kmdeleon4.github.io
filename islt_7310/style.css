@@ -175,4 +175,8 @@ text-align: center;
     align-content: center;
   }
 
+  #grid-item-5 {
+    width: 480px;
+    float: right;
+  }
 }
