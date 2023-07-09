@@ -4,7 +4,14 @@
     font-weight: 700;
 }
 
-main {
+.introheader {
+  color: #595959;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+body {
     font-family: 'lato', sans-serif;
 }
 
@@ -12,10 +19,11 @@ a {
 text-decoration: none;
 }
 
+
 #letterone {
-    color: #d2fcec;
+    color: #595959;
     font-weight: bold;
-    font-size: large;
+    font-size: 20px;
 }
 
 .indentP {
@@ -30,16 +38,11 @@ footer {
 
 .contentheader {
     Background-color: #defcec;
-    padding: 20px;
+    padding: 20px 10px 40px 40px;
     Display: block;
     Width: 400px;
     }
 
-.content1 {
-    margin: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px
-}
 
 .gridcontainer1 {
   display: grid;
@@ -80,4 +83,96 @@ footer {
 .grid-item-6 {
 border: 1px solid #d2fcec;
 text-align: center;
+}
+
+#indexintro {
+  background-color: #d2fcec;
+  padding: 50px;
+  margin-top: 20px;
+  
+}
+
+#indexintro h3 {
+  color: #595959;
+}
+
+#indexcontent {
+  margin: 40px 80px;
+}
+
+.gridcontainer2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;
+  margin: 50px;
+  text-align: center;
+  align-content: center;
+}
+
+.gridcontainer2 a {
+  text-decoration: none;
+  color: #595959;
+  font-weight: 800;
+}
+
+.gridcontainer3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+#grid-item-5 {
+  padding: 30px 30px 0px 30px;
+}
+
+#grid-item-6 {
+  padding: 0px 30px 30px 30px;
+}
+.gridcontainer4 {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 0;
+  padding: 20px 30px 0px 30px;
+}
+
+#competencybox {
+  border: 2px solid #defcec;
+  padding: 0 20px 20px 20px
+}
+
+.gridcontainer5 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 640px) {
+  .gridcontainer2 {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 40px;
+    margin: 40px;
+  }
+
+  .gridcontainer1 {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    margin: 40px;
+  }
+  .gridcontainer3 {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0px 30px 0px 30px;
+  }
+  .gridcontainer5 {
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 10px;
+    padding: 20px;
+    align-content: center;
+  }
+
 }

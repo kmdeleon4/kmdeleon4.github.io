@@ -5,39 +5,53 @@ Title:  Home Page
 Use:  Landing Page/Main Page for website
 Author:  Kristin DeLeon
 School/Term:  University of Missouri, Summer 2023
-Developed: 7/01/2013
-Tested:  7/01/2023
+Developed: 7/09/2013
+Tested:  7/09/2023
 ******************************************************************************
 -->
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale 1.0">
     <title>Kristin DeLeon</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
 </head>
 <body>
+    <header>
     <nav>
+        <label for="toggle">&#9776</label>
+        <input type="checkbox" id="toggle"/>
         <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#project.html">Projects</a>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-           </ul>
-        </li>
-        <li><a href="Reflection.html">Reflection</a></li>
-        <li><a href="#contact.html">Contact</a></li>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a>
+                <ul>
+                    <li><a href="project1.html">Link 1</a></li>
+                    <li><a href="project2.html">Link 2</a></li>
+                    <li><a href="project3.html">Link 3</a></li>
+                </ul>
+            </li>
+            <li><a href="Reflection.html">Reflection</a></li>
+            <li><a href="#contact.html">Contact</a></li>
         </ul>
     </nav>
-    <header>
-        <h1>Welcome!</h1>
     </header>
     <main>
-        <h3>My name is Kristin DeLeon, and I am an experienced instructional designer dedicated to creating engaging and effective learning experiences. Take a moment to explore my work and discover how I can bring innovative solutions to your training needs</h3>
+        <div id="indexintro">
+        <h1 class="introheader">Welcome!</h1>
+            <h3>My name is Kristin DeLeon, and I am an experienced instructional designer dedicated to creating engaging and effective learning experiences. Take a moment to explore my work and discover how I can bring innovative solutions to your training needs</h3>
+    </div>
+    <div id="indexcontent">
         <p>This portfolio showcases my expertise in designing and developing impactful learning experiences. Throughout this website you will find several examples that demonstrate my ability to create engaging and effective instructional materials that promote knowledge retention and skill development. You will also find how the projects completed during my master’s program align to the three competencies of the Learning Technologies and Design program at the University of Missouri. The objectives of this website are to highlight my diverse range of instructional design projects, showcase my proficiency in various instructional tools and technologies, and provide evidence of my ability to analyze training needs and develop customized solutions.</p>
+        <div class="gridcontainer2">
+            <div id="aboutitem"><a href="about.html">ABOUT ME</a></div>
+            <div id="projectitem"><a href="#project">PROJECT EXAMPLES</a></div>
+            <div id="reflectionitem"><a href="Reflection.html">PERSONAL REFLECTION</a></div>
+            <div id="contactitem"><a href="#contact">CONTACT ME</a></div>
+        </div>
+    </div>
     </main>
     <footer>Kristin DeLeon<br />kmcvd7@umsystem.edu<br />© 2023</footer>
 </body>
