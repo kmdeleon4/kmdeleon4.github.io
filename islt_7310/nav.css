@@ -35,7 +35,7 @@ header .nav > li > a {
 header .nav > li > ul {
     list-style: none;
     position: absolute;
-    top: 38px;
+    top: 46px;
     background: #595959;
     padding: 0px;
     transition: .5s;
