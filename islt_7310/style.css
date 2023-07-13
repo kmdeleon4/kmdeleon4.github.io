@@ -86,10 +86,8 @@ footer a {
 }
 
 .grid-item-4 {
-  border: 1px solid black;
-  font-size: 30px;
   text-align: center;
-  padding: 150px;
+  padding: 0p;
 }
 
 .grid-item-6 {
