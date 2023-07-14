@@ -86,8 +86,8 @@ footer a {
 }
 
 .grid-item-4 {
-  text-align: center;
   padding: 0p;
+  align-content: center;
 }
 
 .grid-item-6 {
@@ -160,6 +160,18 @@ text-align: center;
 
 .iconcredit {
   font-size: smaller;
+}
+
+.icon {
+  transition: .2s;
+  background: none;
+  border: none;
+}
+
+.icon:hover {
+  transform: scale(1.4);
+ 
+
 }
 /*mobile style*/ 
 
