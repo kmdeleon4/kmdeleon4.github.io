@@ -173,6 +173,28 @@ cursor: pointer;
   gap: 0px;
   padding: 20px;
   text-align: center;
+  align-content: center;
+  position:relative;
+  text-align: center;
+}
+
+.gridcontainer7 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  align-content: center;
+  position:relative;
+  text-align: center;
+  margin: 10px 50px 30px 50px;
+}
+
+.gridcontainer7 a {
+  text-decoration: none;
+  color: #595959;
+  text-align: center;
+  font:1em "ArchivoBlack", sans-serif;
 }
 
 #aboutitem {
