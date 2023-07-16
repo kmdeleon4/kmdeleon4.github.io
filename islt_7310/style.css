@@ -97,8 +97,9 @@ footer a {
 }
 
 .grid-item-4 {
+  display: grid;
   padding: 0p;
-  align-content: center;
+  place-items: center;
 }
 
 .grid-item-6 {
