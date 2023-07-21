@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+*****************************************************************************
+Title:  Contact Me
+Use:  Contact form
+Author:  Kristin DeLeon
+School/Term:  University of Missouri, Summer 2023
+Developed: 7/20/2023
+Tested:  7/20/2023
+******************************************************************************
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="it=edge">
+    <link rel="icon" href="favicon.ico">
+    <Title>Contact</Title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+<header>
+    <nav>
+        <label id=navtoggle for="toggle">&#9776</label>
+        <input type="checkbox" id="toggle"/>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a>
+                <ul>
+                    <li><a href="project1.html">Project 1</a></li>
+                    <li><a href="project2.html">Project 2</a></li>
+                    <li><a href="project3.html">Project 3</a></li>
+                </ul>
+            </li>
+            <li><a href="Reflection.html">Reflection</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+ </header>
+ <h1 class="projectheader">Contact Me</h1>
+<div id="indexcontent">
+    <p>Please fill out all fields below and click "Submit"</p>
+</div>
+    <form action="mailto:kmcvd7@umsystem.edu?Subject=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
+        <div>        
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname" required>
+        </div>
+        <div>        
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div>
+            <label for="message">Your Message:</label>
+            <textarea name="message" id="message" required></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+<footer>Kristin DeLeon
+    <br />
+        <a href="mailto:kmcvd7@umsystem.edu">
+        <button class="icon"><img width="15" height="15" src="images/icons8-email-50.png" alt="email"/></button> kmcvd7@umsystem.edu</a>
+    <br /><button class="icon"><img width="15" height="15" src="images/icons8-phone-50.png" alt="phone"/></button> 1+888-888-8888
+    <br />© 2023
+    <p class="iconcredit"><a target="_blank"></a> Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+</footer>
+</html>
+    

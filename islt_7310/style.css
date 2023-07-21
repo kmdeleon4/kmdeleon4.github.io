@@ -279,12 +279,39 @@ Caption {
   font:2em "ArchivoBlack", sans-serif;
   padding: 10px;
   text-align: left;
-  
-
- 
 }
 
+form {
+  margin: 40px 80px;
+  font-family: 'lato', sans-serif;
+}
 
+label {
+  margin-top: 1em;
+  display: block;
+}
+
+input {
+  padding: .5em;
+  border: 1px solid #000;
+}
+
+textarea {
+  min-height: 8em;
+  min-width: 90%;
+  padding: .5em;
+  border: solid 1px #000;
+}
+
+button[type="submit"] {
+  padding: .5em 1em;
+  border-radius: 4px;
+  background-color: #d2fcec;
+  border-color:#d2fcec;
+  color: #595959;
+  font: 1em "ArchivoBlack", sans-serif;
+  margin-top: 20px;
+}
 /*mobile style*/ 
 
 @media only screen and (max-width: 640px) {
