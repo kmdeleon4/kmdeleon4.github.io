@@ -6,6 +6,11 @@
 .topheader {
   font: 3em "ArchivoBlack", sans-serif;
   text-shadow: 1px 1px lightgrey;
+  color: #595959;
+  background-color: #d2fcec;
+  max-width: 100%;
+  padding: 20px 10px 40px 40px;
+  Display: block;
 }
 
 h1 {
@@ -24,8 +29,9 @@ h1 {
 }
 .introheader {
   color: #595959;
-  font:4em "ArchivoBlack", sans-serif;
+  font:3em "ArchivoBlack", sans-serif;
   text-shadow: 1px 1px lightgrey;
+  display: block;
 }
 
 body {
@@ -35,7 +41,6 @@ body {
 a {
 text-decoration: none;
 }
-
 
 #letterone {
     color: #595959;
@@ -59,12 +64,11 @@ footer a {
 }
 
 .contentheader {
-    Background-color: #defcec;
+    Background-color: #d2fcec;
     padding: 20px 10px 40px 40px;
     Display: block;
     Width: 800px;
     }
-
 
 .gridcontainer1 {
   display: grid;
@@ -150,7 +154,7 @@ cursor: pointer;
 }
 
 #grid-item-5 {
-  padding: 30px 30px 0px 30px;
+  padding: 0px 30px 0px 30px;
 }
 
 #grid-item-6 {
@@ -164,7 +168,7 @@ cursor: pointer;
 }
 
 #competencybox {
-  border: 2px solid #defcec;
+  border: 2px solid #d2fcec;
   padding: 0 20px 20px 20px
 }
 
@@ -326,12 +330,14 @@ button[type="submit"] {
     display: grid;
     grid-template-columns: auto;
     gap: 30px;
-    margin: 40px;
+    margin: 40px 0 0 40px;
+    max-width: 680px;
+    flex-direction: column;
   }
   .gridcontainer3 {
     display: grid;
     grid-template-columns: auto;
-    max-width: 680;
+    max-width: 680px;
 
   }
   .gridcontainer5 {
@@ -343,7 +349,6 @@ button[type="submit"] {
   }
 
   #grid-item-5 {
-    width: 100%;
     margin: 0 auto;
     flex-direction: column;
   }
@@ -352,6 +357,7 @@ button[type="submit"] {
     width: 680px;
   }
 }
+
 
 /*print stylesheet*/
 
